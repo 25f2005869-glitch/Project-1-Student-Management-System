@@ -1,0 +1,246 @@
+/* ==========================
+   Student Management System
+   style.css
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fa;
+    color:#333;
+}
+
+/* ==========================
+   Navigation
+========================== */
+
+nav{
+    background:#1f4e79;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+nav h2{
+    font-size:28px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#ffd54f;
+}
+
+/* ==========================
+   Container
+========================== */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+/* ==========================
+   Home Section
+========================== */
+
+.hero{
+    background:white;
+    padding:50px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#1f4e79;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+/* ==========================
+   Button
+========================== */
+
+.btn{
+    display:inline-block;
+    width:100%;
+    background:#1f4e79;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#16395b;
+}
+
+/* ==========================
+   Form
+========================== */
+
+.form-box{
+    width:450px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.form-box h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:15px;
+}
+
+.form-group textarea{
+    resize:vertical;
+}
+
+/* ==========================
+   Table
+========================== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:20px;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+table th{
+    background:#1f4e79;
+    color:white;
+}
+
+/* ==========================
+   Dashboard
+========================== */
+
+.dashboard{
+    padding:20px;
+}
+
+.card-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 5px 12px rgba(0,0,0,.1);
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#1f4e79;
+}
+
+.card h3{
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+/* ==========================
+   Flash Messages
+========================== */
+
+.flash{
+    padding:15px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.success{
+    background:#d4edda;
+    color:#155724;
+}
+
+.danger{
+    background:#f8d7da;
+    color:#721c24;
+}
+
+.warning{
+    background:#fff3cd;
+    color:#856404;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    background:#1f4e79;
+    color:white;
+}
